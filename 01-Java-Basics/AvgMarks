@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class AvgMarks{
+    public ststic void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Marks of subject1: ");
+        int sub1 = sc.nextInt();
+        System.out.print("Marks of subject2: ");
+        int sub2 = sc.nextInt();
+        System.out.print("Marks of subject3: ");
+        int sub3 = sc.nextInt();
+        int total = sub1 + sub2 + sub3;
+        double average = total / 3.0;
+        System.out.println("Average marks: " + average);
+        sc.close();
+    }
+}
